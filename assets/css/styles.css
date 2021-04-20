@@ -1,0 +1,84 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Manier';
+  font-size: 82px;
+  color: #000000;
+}
+
+#hero {
+  height: 100vh;
+}
+
+#main {
+  height: 100%;
+}
+
+#main-box {
+  width: 60%;
+}
+
+#main-box h1 {
+  margin-bottom: 50px;
+}
+
+#main-box a {
+  font-size: 48px;
+  color: #000;
+  font-family: 'Manier';
+  border-bottom: 8px #000 solid;
+  padding-bottom: 10px;
+}
+
+#main-box a:hover {
+  text-decoration: none;
+  border-bottom: #000000 dotted 8px;
+}
+
+.navbar {
+  height: 120px;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+
+.head-btn {
+  font-size: 24px;
+  background: #ffffff;
+  color: #000;
+  border-width: 4px;
+  border-color: #000000;
+  padding: 12px 18px;
+}
+
+.head-btn:hover {
+  font-size: 24px;
+  background: #000000;
+  color: #ffffff;
+  border-width: 4px;
+  border-color: #000000;
+  padding: 12px 18px;
+}
+
+/* @media (min-width: 300px) {
+  #main-box {
+    width: 100%;
+  }
+  
+  #main-box h1 {
+    font-size: 42px;
+  }
+
+  #main-box a {
+    font-size: 36px;
+  }
+}
+
+ @media (min-width: 768px){
+   #main-box h1{
+     font-size: 10px;
+   }
+ } */
